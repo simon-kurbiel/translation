@@ -16,7 +16,7 @@ const App = () => {
   };
 
   return (
-    <div className="w-4/5 m-auto mt-5">
+    <div className="flex flex-col w-4/5 m-auto mt-5 md:w-3/5 md:lg:items-center lg:w-1/2 ">
       <TextInput
         searchText={searchText}
         onSubmit={onSubmit}

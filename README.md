@@ -1,30 +1,55 @@
-# React + TypeScript + Vite
+Sure, here's a basic README template for your translation app:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+# Multi-Language Translation App
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Overview
 
-## Expanding the ESLint configuration
+This app translates sentences from English to both Arabic and Tigrinya. It provides a simple interface for users to input sentences and get translations in their desired languages.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Features
 
-- Configure the top-level `parserOptions` property like this:
+- Translate English sentences to Arabic and Tigrinya.
+- User-friendly interface.
+- Fast and accurate translations.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+## Technologies Used
+
+- **Programming Language**: Typescript
+- **Libraries/3rd party Apis**:
+  - React for the frontend
+  - Microsoft Translator Text from Azure
+
+## Setup
+
+### Prerequisites
+
+- Node installed on machine
+
+### Installation
+
+1. Clone this repository:
+
+```bash
+git clone git@github.com:simon-kurbiel/translation.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+2. Install required dependencies:
+
+```bash
+cd <project>
+npm install
+```
+
+### Usage
+
+1. Run the app:
+
+```bash
+npm run dev
+```
+
+2. Enter the sentence you want to translate in the input field.
+3. Click the "Translate" button.
+4. Click on the accordians for the language that you want to display
