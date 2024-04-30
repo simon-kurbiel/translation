@@ -4,6 +4,10 @@ Sure, here's a basic README template for your translation app:
 
 # Multi-Language Translation App
 
+## demo
+
+[Demo](https://translation-fnwif0mem-simon-kurbiels-projects.vercel.app/)
+
 ## Overview
 
 This app translates sentences from English to both Arabic and Tigrinya. It provides a simple interface for users to input sentences and get translations in their desired languages.
