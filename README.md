@@ -6,7 +6,7 @@ Sure, here's a basic README template for your translation app:
 
 ## demo
 
-[Demo](https://translation-fnwif0mem-simon-kurbiels-projects.vercel.app/)
+[Demo](https://translation-kappa.vercel.app/)
 
 ## Overview
 
