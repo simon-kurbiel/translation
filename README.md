@@ -4,7 +4,7 @@ Sure, here's a basic README template for your translation app:
 
 # Multi-Language Translation App
 
-## demo
+## Demo
 
 [Demo](https://translation-kappa.vercel.app/)
 
